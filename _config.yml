@@ -24,14 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   This site documents and showcases past/on-going/future projects. 
 baseurl:  # the subpath of your site, e.g. /blog
 url: "https://shangchensu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: 
 github_username:  shangchensu
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
