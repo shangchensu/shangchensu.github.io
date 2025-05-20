@@ -2,7 +2,30 @@ title: Hello
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 url: "https://shangchensu.github.io"
-
+baseurl: '/shangchensu'
+# add this line when push to github pages
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.6.0"
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red

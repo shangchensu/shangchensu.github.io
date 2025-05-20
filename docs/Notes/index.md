@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Notes
-permalink: /Notes/
-nav_order: 6
+nav_order: 2
 ---
-
+123
