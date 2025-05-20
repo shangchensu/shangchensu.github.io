@@ -6,5 +6,5 @@ gem "jekyll", "~> 4.3" # installed by `gem jekyll`
 gem "just-the-docs", "0.10.1" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
 
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
